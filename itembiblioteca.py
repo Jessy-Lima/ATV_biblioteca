@@ -1,5 +1,5 @@
 class Itembiblioteca:
-    def __init__(self, codigo: int, titulo: str, ano: int, disponivel: str):
+    def __init__(self, codigo: int, titulo: str, ano: int):
         self.__codigo = codigo
         self.__titulo = titulo
         self.__ano = ano
@@ -30,7 +30,7 @@ class Itembiblioteca:
             raise ValueError("Titulo não pode ser vazio")
         
     def set_ano(self, novo_ano):
-        if novo_ano:
+        if novo_ano > 0:
             self.__ano = novo_ano
         else:
             raise ValueError("Ano deve ser maior que zero")
@@ -49,3 +49,5 @@ class Itembiblioteca:
     def exibir_detalhes(self):
         raise NotImplementedError("Este método deve ser sobrescrito.")
     
+# Livro1 = Itembiblioteca(128342, "Balão Vermelho", 1980)
+# Livro1.exibir_detalhes()
