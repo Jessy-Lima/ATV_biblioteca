@@ -3,7 +3,7 @@ class Itembiblioteca:
         self.__codigo = codigo
         self.__titulo = titulo
         self.__ano = ano
-        self.__disponivel = disponivel
+        self.__disponivel = True
 
     def get_codigo(self):
         return self.__codigo
