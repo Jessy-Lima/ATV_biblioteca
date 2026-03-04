@@ -29,3 +29,6 @@ class Livro(Itembiblioteca):
         print(f"[Livro] Código: {self.get_codigo()} | Título: {self.get_titulo()} | "
               f"Ano: {self.get_ano()} | Autor: {self.__autor} | "
               f"Páginas: {self.__num_paginas} | Status: {status}")
+
+# l1 = Livro("10", "Python POO", 2023, "Jessica", 300)
+# l1.exibir_detalhes()

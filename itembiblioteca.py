@@ -48,6 +48,3 @@ class Itembiblioteca:
 
     def exibir_detalhes(self):
         raise NotImplementedError("Este método deve ser sobrescrito.")
-    
-# Livro1 = Itembiblioteca(128342, "Balão Vermelho", 1980)
-# Livro1.exibir_detalhes()
