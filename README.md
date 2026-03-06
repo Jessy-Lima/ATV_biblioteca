@@ -16,7 +16,7 @@ Sistema simples de gerenciamento de itens de biblioteca desenvolvido em Python u
 ## Como executar
 
 1. Clone o repositório:
-git clone https://github.com/seuusuario/biblioteca-poo.git
+git clone https://github.com/Jessy-Lima/ATV_biblioteca
 
 2. Acesse a pasta:
 cd biblioteca-poo
